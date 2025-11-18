@@ -1,0 +1,204 @@
+{
+  "days": [
+    {
+      "date": "4.18.26",
+      "dayName": "Friday",
+      "items": [
+        {
+          "time": "12:00 PM - 2:00 PM",
+          "location": "Gatlin Registration 1",
+          "event": "FAC Meetings"
+        },
+        {
+          "time": "2:00 PM - 3:30 PM",
+          "location": "Conference Room A",
+          "event": "Leadership Summit"
+        },
+        {
+          "time": "3:30 PM - 4:00 PM",
+          "location": "Main Lobby",
+          "event": "Coffee & Networking Break"
+        },
+        {
+          "time": "4:00 PM - 5:30 PM",
+          "location": "Conference Room B",
+          "event": "Strategic Planning Session"
+        },
+        {
+          "time": "6:00 PM - 8:00 PM",
+          "location": "Grand Ballroom",
+          "event": "Welcome Reception"
+        }
+      ]
+    },
+    {
+      "date": "4.19.26",
+      "dayName": "Saturday",
+      "items": [
+        {
+          "time": "8:00 AM - 9:00 AM",
+          "location": "Grand Hall",
+          "event": "Continental Breakfast"
+        },
+        {
+          "time": "9:00 AM - 12:00 PM",
+          "location": "Main Ballroom",
+          "event": "Registration & Check-in"
+        },
+        {
+          "time": "12:00 PM - 1:30 PM",
+          "location": "Grand Hall",
+          "event": "Welcome Lunch"
+        },
+        {
+          "time": "2:00 PM - 4:30 PM",
+          "location": "Workshop Hall",
+          "event": "Stop the Shift Workshop",
+          "eventSecondary": "SCOTT GREENBERG",
+          "speakerLink": "https://scottgreenberg.com/",
+          "speakerImage": "/assets/scott-greenberg.png"
+        },
+        {
+          "time": "5:00 PM - 6:00 PM",
+          "location": "Exhibit Hall",
+          "event": "Vendor Meet & Greet"
+        },
+        {
+          "time": "7:00 PM - 10:00 PM",
+          "location": "Pool Deck",
+          "event": "Opening Night Social"
+        }
+      ]
+    },
+    {
+      "date": "4.20.26",
+      "dayName": "Sunday",
+      "items": [
+        {
+          "time": "7:30 AM - 8:30 AM",
+          "location": "Grand Hall",
+          "event": "Breakfast Buffet"
+        },
+        {
+          "time": "9:00 AM - 10:30 AM",
+          "location": "Main Ballroom",
+          "event": "Opening Keynote",
+          "eventSecondary": "DR. ROZEN",
+          "speakerLink": "https://www.drmichellerozen.com/",
+          "speakerImage": "/assets/dr-rozen.png"
+        },
+        {
+          "time": "10:45 AM - 12:15 PM",
+          "location": "Various Rooms",
+          "event": "Brand Breakout Sessions"
+        },
+        {
+          "time": "12:30 PM - 2:00 PM",
+          "location": "Grand Hall",
+          "event": "Networking Lunch"
+        },
+        {
+          "time": "2:15 PM - 3:45 PM",
+          "location": "Main Ballroom",
+          "event": "Panel Discussion: Future of Franchising"
+        },
+        {
+          "time": "4:00 PM - 5:30 PM",
+          "location": "Exhibit Hall",
+          "event": "Vendor Showcase"
+        },
+        {
+          "time": "6:00 PM - 8:30 PM",
+          "location": "Private Dining Room",
+          "event": "FAC and Vendor Dinner",
+          "eventSecondary": "Invite Only",
+          "isItalic": true
+        }
+      ]
+    },
+    {
+      "date": "4.21.26",
+      "dayName": "Monday",
+      "items": [
+        {
+          "time": "7:30 AM - 8:30 AM",
+          "location": "Grand Hall",
+          "event": "Breakfast Buffet"
+        },
+        {
+          "time": "9:00 AM - 10:30 AM",
+          "location": "Main Ballroom",
+          "event": "General Session: Industry Trends"
+        },
+        {
+          "time": "10:45 AM - 12:15 PM",
+          "location": "Various Rooms",
+          "event": "Hands-on Training Workshops"
+        },
+        {
+          "time": "12:30 PM - 2:00 PM",
+          "location": "Grand Hall",
+          "event": "Lunch & Learn Session"
+        },
+        {
+          "time": "2:15 PM - 3:45 PM",
+          "location": "Main Ballroom",
+          "event": "Afternoon Keynote",
+          "eventSecondary": "SCOTT GREENBERG",
+          "speakerLink": "https://scottgreenberg.com/",
+          "speakerImage": "/assets/scott-greenberg.png"
+        },
+        {
+          "time": "4:00 PM - 5:30 PM",
+          "location": "Conference Rooms",
+          "event": "Peer-to-Peer Roundtables"
+        },
+        {
+          "time": "7:00 PM - 11:00 PM",
+          "location": "Rooftop Terrace",
+          "event": "Gala Dinner & Awards"
+        }
+      ]
+    },
+    {
+      "date": "4.22.26",
+      "dayName": "Tuesday",
+      "items": [
+        {
+          "time": "7:30 AM - 8:30 AM",
+          "location": "Grand Hall",
+          "event": "Breakfast Buffet"
+        },
+        {
+          "time": "9:00 AM - 10:30 AM",
+          "location": "Main Ballroom",
+          "event": "Closing Keynote: Leadership Excellence",
+          "eventSecondary": "MIKE ABRASHOFF",
+          "speakerLink": "https://www.mikeabrashoff.com/",
+          "speakerImage": "/assets/mike-abrashoff.png"
+        },
+        {
+          "time": "10:45 AM - 12:00 PM",
+          "location": "Various Rooms",
+          "event": "Final Breakout Sessions"
+        },
+        {
+          "time": "12:15 PM - 1:30 PM",
+          "location": "Grand Hall",
+          "event": "Farewell Lunch & Networking"
+        },
+        {
+          "time": "1:45 PM - 2:30 PM",
+          "location": "Main Ballroom",
+          "event": "Closing Remarks & Conference Wrap-up"
+        },
+        {
+          "time": "3:00 PM - 5:00 PM",
+          "location": "Main Lobby",
+          "event": "Departure & Safe Travels"
+        }
+      ]
+    }
+  ]
+}
+
