@@ -162,7 +162,7 @@ const Home = () => {
       </section>
 
       {/* Past UBCONs Gallery */}
-      <Gallery variant="home" />
+      <Gallery />
 
       {/* CTA Section */}
       <CTA />

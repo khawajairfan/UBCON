@@ -99,7 +99,7 @@ const About = () => {
       </section>
 
       {/* Past UBCONs Gallery */}
-      <Gallery variant="about" />
+      <Gallery />
 
       {/* CTA Section */}
       <CTA />

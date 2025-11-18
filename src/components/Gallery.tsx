@@ -1,10 +1,6 @@
 import { useState } from 'react';
 
-interface GalleryProps {
-  variant?: 'home' | 'about';
-}
-
-const Gallery = ({ variant }: GalleryProps) => {
+const Gallery = () => {
   const [playingIndex, setPlayingIndex] = useState<number | null>(null);
 
   // Video thumbnails with YouTube embed IDs
