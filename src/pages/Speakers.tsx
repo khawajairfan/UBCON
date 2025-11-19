@@ -25,7 +25,7 @@ const Speakers = () => {
       </section>
 
       {/* Speakers Section */}
-      <section className="speakers-section">
+      <section className="speakers-page-section">
         <div className="speakers-container">
           
           {/* Scott Greenberg */}
