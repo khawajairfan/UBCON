@@ -11,14 +11,30 @@ const Footer = () => {
         <div className="footer-content">
           {/* Brand Logos */}
           <div className="footer-brands">
-            <img src="/assets/urban-air-black.svg" alt="Urban Air" />
-            <img src="/assets/sylvan-black.svg" alt="Sylvan Learning" />
-            <img src="/assets/tlg-black.svg" alt="The Little Gym" />
-            <img src="/assets/ww-black.svg" alt="WW" />
-            <img src="/assets/pma-black.svg" alt="Premier Martial Arts" />
-            <img src="/assets/snapology-black.svg" alt="Snapology" />
-            <img src="/assets/class101-black.svg" alt="Class 101" />
-            <img src="/assets/xp-black.svg" alt="XP League" />
+            <a href="https://www.urbanair.com" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/urban-air-black.svg" alt="Urban Air" />
+            </a>
+            <a href="https://www.sylvanlearning.com/" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/sylvan-black.svg" alt="Sylvan Learning" />
+            </a>
+            <a href="https://www.thelittlegym.com/" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/tlg-black.svg" alt="The Little Gym" />
+            </a>
+            <a href="https://waterwingsswimschool.com/" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/ww-black.svg" alt="WW" />
+            </a>
+            <a href="https://premiermartialarts.com/" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/pma-black.svg" alt="Premier Martial Arts" />
+            </a>
+            <a href="https://www.snapology.com/" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/snapology-black.svg" alt="Snapology" />
+            </a>
+            <a href="https://class101.com/" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/class101-black.svg" alt="Class 101" />
+            </a>
+            <a href="https://xpleague.com/" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/xp-black.svg" alt="XP League" />
+            </a>
           </div>
           
           {/* Hashtag */}
