@@ -227,15 +227,15 @@ h4 { font-size: 24px; }
 .speakers-section {
   position: relative;
   background-color: var(--black);
-  margin: 0 auto;
+  margin: 0;
   height: 810px;
-  width: 1280px;
+  width: 100%;
   overflow: hidden;
 }
 
 .speakers-section h2 {
   position: absolute;
-  left: 108px;
+  left: calc(50% - 640px + 108px);
   top: 109px;
   transform: translateY(-50%);
   font-family: 'Oswald', sans-serif;
@@ -260,15 +260,15 @@ h4 { font-size: 24px; }
 }
 
 .speaker-card:nth-child(1) {
-  left: 108px;
+  left: calc(50% - 640px + 108px);
 }
 
 .speaker-card:nth-child(2) {
-  left: 487px;
+  left: calc(50% - 640px + 487px);
 }
 
 .speaker-card:nth-child(3) {
-  left: 867px;
+  left: calc(50% - 640px + 867px);
 }
 
 .speaker-image {
