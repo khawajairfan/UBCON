@@ -31,7 +31,9 @@ const Navigation = ({ logoVariant = 'colored' }: NavigationProps) => {
       <ul className="nav-links">
         {showHorizontalLogo && (
           <li className="nav-horizontal-logo">
-            <img src="/assets/ubcon-logo-horizontal.svg" alt="UBCON 2026" className="logo-horizontal" />
+            <Link to="/">
+              <img src="/assets/ubcon-logo-horizontal.svg" alt="UBCON 2026" className="logo-horizontal" />
+            </Link>
           </li>
         )}
         <li>
