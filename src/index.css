@@ -2647,7 +2647,7 @@ h4 { font-size: 24px; }
 .agenda-note {
   position: absolute;
   left: 65px;
-  bottom: 30px;
+  top: 1050px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   font-size: 14px;
