@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import CTA from '../components/CTA';
@@ -81,7 +82,7 @@ const AgendaPage = () => {
               <li>Motivate employees and engage them in their work</li>
             </ul>
           </div>
-          <button className="btn btn-primary">register for workshop</button>
+          <Link to="/speakers" className="btn btn-primary">register for workshop</Link>
         </div>
       </section>
 
