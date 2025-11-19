@@ -226,8 +226,9 @@ h4 { font-size: 24px; }
 /* Keynote Speakers Section */
 .speakers-section {
   background-color: var(--black);
-  padding: 0 0 80px 0;
+  padding: 0;
   margin: 0;
+  height: 810px;
 }
 
 .speakers-section h2 {
