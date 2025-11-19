@@ -359,8 +359,14 @@ h4 { font-size: 24px; }
   position: absolute;
   left: calc(50% - 382px);
   top: 290px;
-  transform: translateX(-50%);
-  width: 300px;
+  width: auto;
+  padding: 15px 40px;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.home-preconference-btn:hover {
+  transform: none;
 }
 
 .home-preconference-golf {
@@ -442,8 +448,14 @@ h4 { font-size: 24px; }
   position: absolute;
   left: calc(50% - 381px);
   top: 190px;
-  transform: translateX(-50%);
-  width: 300px;
+  width: auto;
+  padding: 15px 40px;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.home-social-btn:hover {
+  transform: none;
 }
 
 .home-social-citywalk {
