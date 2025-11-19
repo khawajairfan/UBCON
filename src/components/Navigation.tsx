@@ -62,7 +62,7 @@ const Navigation = ({ logoVariant = 'colored' }: NavigationProps) => {
           </Link>
         </li>
         <li>
-          <a href="https://unleashedbrands.app.box.com/s/7ki894e60g3mzczskz0bmms9oz8l4ov3" target="_blank" rel="noopener noreferrer">
+          <a href="/assets/UBCON2026_FullVendorSponsorships.pdf" target="_blank" rel="noopener noreferrer">
             Become a Sponsor
           </a>
         </li>
