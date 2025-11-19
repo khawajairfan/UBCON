@@ -316,14 +316,17 @@ h4 { font-size: 24px; }
 
 .speakers-section .text-center {
   position: absolute;
-  left: calc(50% - 382px);
+  left: 50%;
   top: 673px;
   transform: translateX(-50%);
-  width: 300px;
+  width: auto;
 }
 
 .speakers-section .text-center .btn {
-  width: 100%;
+  width: auto;
+  padding: 15px 40px;
+  white-space: nowrap;
+  font-size: 16px;
 }
 
 /* Home Page - Pre-Conference Events Section */
