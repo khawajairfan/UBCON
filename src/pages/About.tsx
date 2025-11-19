@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import CTA from '../components/CTA';
@@ -94,7 +95,7 @@ const About = () => {
         </div>
 
         <div className="text-center">
-          <button className="btn btn-primary">Learn More About Our Speakers</button>
+          <Link to="/speakers" className="btn btn-primary">Learn More About Our Speakers</Link>
         </div>
       </section>
 
