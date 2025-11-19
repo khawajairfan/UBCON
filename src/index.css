@@ -2118,8 +2118,9 @@ h4 { font-size: 24px; }
 /* Workshop Section */
 .workshop-section {
   position: relative;
-  width: 100%;
+  width: 1280px;
   min-height: 1267px;
+  margin: 0 auto;
   background-color: var(--white);
   padding: 0;
 }
@@ -2221,8 +2222,9 @@ h4 { font-size: 24px; }
 /* Brand Session Section */
 .brand-session-section {
   position: relative;
-  width: 100%;
+  width: 1280px;
   min-height: 1555px;
+  margin: 0 auto;
   background-color: var(--white);
   padding: 80px 0 0 0;
 }
@@ -2355,8 +2357,9 @@ h4 { font-size: 24px; }
 /* Social Events Section */
 .social-events-section {
   position: relative;
-  width: 100%;
+  width: 1280px;
   min-height: 1260px;
+  margin: 0 auto;
   background-color: var(--white);
   padding: 0;
 }
@@ -2643,8 +2646,8 @@ h4 { font-size: 24px; }
 
 .agenda-note {
   position: absolute;
-  left: 54px;
-  bottom: 78px;
+  left: 65px;
+  bottom: 30px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   font-size: 14px;
