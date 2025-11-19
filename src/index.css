@@ -357,7 +357,7 @@ h4 { font-size: 24px; }
 
 .home-preconference-btn {
   position: absolute;
-  left: calc(50% - 382px);
+  left: 108px;
   top: 290px;
   width: auto;
   padding: 15px 40px;
@@ -446,7 +446,7 @@ h4 { font-size: 24px; }
 
 .home-social-btn {
   position: absolute;
-  left: calc(50% - 381px);
+  left: 108px;
   top: 190px;
   width: auto;
   padding: 15px 40px;
