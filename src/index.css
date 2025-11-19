@@ -2079,7 +2079,7 @@ h4 { font-size: 24px; }
 
 .golf-tournament-title {
   position: absolute;
-  left: 108px;
+  left: calc(50% - 640px + 108px);
   top: 109px;
   transform: translateY(-50%);
   width: 848px;
@@ -2095,7 +2095,7 @@ h4 { font-size: 24px; }
 
 .golf-tournament-text {
   position: absolute;
-  left: 108px;
+  left: calc(50% - 640px + 108px);
   top: 163px;
   width: 848px;
   font-family: 'Work Sans', sans-serif;
@@ -2109,7 +2109,7 @@ h4 { font-size: 24px; }
 
 .golf-tournament-section .btn {
   position: absolute;
-  left: 108px;
+  left: calc(50% - 640px + 108px);
   top: 420px;
   width: 340px;
   font-size: 15px;
