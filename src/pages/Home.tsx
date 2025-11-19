@@ -79,67 +79,56 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Pre-Conference Events */}
       {/* Pre-Conference Events Section */}
-      <section className="preconference-section">
-        <div className="preconference-container">
-          {/* Left Column: Title and Button */}
-          <div className="preconference-left">
-            <h2 className="preconference-title">Pre-Conference<br />Events</h2>
-            <button className="btn btn-primary">Register for UBCON2026</button>
+      <section className="home-preconference-section">
+        <h2 className="home-preconference-title">Pre-conference<br />Events</h2>
+        <button className="btn btn-primary home-preconference-btn">Register for UBCON2026</button>
+        
+        {/* Golf Tournament */}
+        <div className="home-preconference-golf">
+          <div className="home-preconference-image-wrapper">
+            <img src="/assets/golf-tournament.png" alt="Golf Tournament" />
           </div>
-
-          {/* Golf Tournament */}
-          <div className="preconference-card">
-            <div className="preconference-image">
-              <img src="/assets/golf-tournament.png" alt="Golf Tournament" />
-            </div>
-            <h3 className="preconference-card-title">Golf Tournament</h3>
-            <div className="preconference-card-details">
-              Saturday, April 18<br />
-              2:00 PM - 6:00 PM<br />
-              Rosen Shingle Creek Golf Course
-            </div>
+          <h3>Golf Tournament</h3>
+          <div className="home-preconference-details">
+            Saturday, April 18<br />
+            2:00 PM - 6:00 PM<br />
+            Rosen Shingle Creek Golf Course
           </div>
+        </div>
 
-          {/* Workshop */}
-          <div className="preconference-card">
-            <div className="preconference-image">
-              <img src="/assets/scott-greenberg.png" alt="Scott Greenberg Workshop" />
-            </div>
-            <h3 className="preconference-card-title">Stop the Shift Workshop with Scott Greenberg</h3>
-            <div className="preconference-card-details">
-              Sunday, April 19<br />
-              2:30 PM - 4:30 PM
-            </div>
+        {/* Workshop */}
+        <div className="home-preconference-workshop">
+          <div className="home-preconference-image-wrapper">
+            <img src="/assets/scott-greenberg.png" alt="Scott Greenberg Workshop" />
+          </div>
+          <h3>Stop the Shift Workshop with Scott Greenberg</h3>
+          <div className="home-preconference-details">
+            sunday, april 19<br />
+            2:30 pm - 4:30 pm
           </div>
         </div>
       </section>
 
       {/* Social Events Section */}
-      <section className="social-events-section">
-        <div className="social-events-container">
-          {/* Left Column: Title and Button */}
-          <div className="social-events-left">
-            <h2 className="social-events-title">Social Events</h2>
-            <button className="btn btn-primary">Learn More About Our Events</button>
+      <section className="home-social-events-section">
+        <h2 className="home-social-title">Social Events</h2>
+        <button className="btn btn-primary home-social-btn">Learn More About Our Events</button>
+        
+        {/* Universal CityWalk */}
+        <div className="home-social-citywalk">
+          <div className="home-social-image-wrapper">
+            <img src="/assets/citywalk.png" alt="Universal CityWalk" />
           </div>
+          <h3>Universal CityWalk</h3>
+        </div>
 
-          {/* Universal CityWalk */}
-          <div className="social-events-card">
-            <div className="social-events-image">
-              <img src="/assets/citywalk.png" alt="Universal CityWalk" />
-            </div>
-            <h3 className="social-events-card-title">Universal CityWalk</h3>
+        {/* Hard Rock Live */}
+        <div className="home-social-hardrock">
+          <div className="home-social-image-wrapper">
+            <img src="/assets/hardrock.png" alt="Hard Rock Live" />
           </div>
-
-          {/* Hard Rock Live */}
-          <div className="social-events-card">
-            <div className="social-events-image">
-              <img src="/assets/hardrock.png" alt="Hard Rock Live" />
-            </div>
-            <h3 className="social-events-card-title">Hard Rock Live</h3>
-          </div>
+          <h3>Hard Rock Live</h3>
         </div>
       </section>
 

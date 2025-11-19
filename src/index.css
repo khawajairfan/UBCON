@@ -284,40 +284,20 @@ h4 { font-size: 24px; }
   font-weight: 500;
 }
 
-/* Pre-Conference Events Section */
-.preconference-section {
+/* Home Page - Pre-Conference Events Section */
+.home-preconference-section {
   position: relative;
-  padding: 80px 108px;
-  background-color: var(--white);
-  min-height: 650px;
-}
-
-.preconference-container {
-  position: relative;
-  max-width: 1280px;
+  width: 1280px;
+  height: 699px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 340px 1fr 1fr;
-  gap: 66px;
-  align-items: start;
+  background-color: var(--white);
 }
 
-.preconference-left {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-  padding-top: 69px;
-}
-
-.preconference-left .btn,
-.social-events-left .btn {
-  padding: 15px 20px;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.preconference-title {
+.home-preconference-title {
+  position: absolute;
+  left: 108px;
+  top: 167px;
+  transform: translateY(-50%);
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 48px;
@@ -326,28 +306,45 @@ h4 { font-size: 24px; }
   letter-spacing: -0.96px;
   line-height: 1.2;
   margin: 0;
+  width: 303px;
 }
 
-.preconference-card {
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
+.home-preconference-btn {
+  position: absolute;
+  left: calc(50% - 382px);
+  top: 290px;
+  transform: translateX(-50%);
+  width: 300px;
 }
 
-.preconference-image {
+.home-preconference-golf {
+  position: absolute;
+  left: 480px;
+  top: 98px;
+}
+
+.home-preconference-workshop {
+  position: absolute;
+  left: 866px;
+  top: 97px;
+}
+
+.home-preconference-image-wrapper {
   width: 303px;
   height: 303px;
   border-radius: 25px;
   overflow: hidden;
+  margin-bottom: 22px;
 }
 
-.preconference-image img {
+.home-preconference-image-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.preconference-card-title {
+.home-preconference-golf h3,
+.home-preconference-workshop h3 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   font-size: 32px;
@@ -355,11 +352,11 @@ h4 { font-size: 24px; }
   text-transform: uppercase;
   letter-spacing: -0.16px;
   line-height: 1.25;
-  margin: 0;
+  margin: 0 0 22px 0;
   width: 326px;
 }
 
-.preconference-card-details {
+.home-preconference-details {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   font-size: 24px;
@@ -367,34 +364,23 @@ h4 { font-size: 24px; }
   text-transform: uppercase;
   letter-spacing: -0.12px;
   line-height: 1.45;
+  width: 303px;
 }
 
-/* Social Events Section */
-.social-events-section {
+/* Home Page - Social Events Section */
+.home-social-events-section {
   position: relative;
-  padding: 80px 108px;
-  background-color: #f5f5f5;
-  min-height: 510px;
-}
-
-.social-events-container {
-  position: relative;
-  max-width: 1280px;
+  width: 1280px;
+  height: 566px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 340px 1fr 1fr;
-  gap: 88px;
-  align-items: start;
+  background-color: var(--white);
 }
 
-.social-events-left {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-  padding-top: 29px;
-}
-
-.social-events-title {
+.home-social-title {
+  position: absolute;
+  left: 108px;
+  top: 109px;
+  transform: translateY(-50%);
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 48px;
@@ -403,28 +389,45 @@ h4 { font-size: 24px; }
   letter-spacing: -0.96px;
   line-height: 1.2;
   margin: 0;
+  width: 848px;
 }
 
-.social-events-card {
-  display: flex;
-  flex-direction: column;
-  gap: 23px;
+.home-social-btn {
+  position: absolute;
+  left: calc(50% - 381px);
+  top: 190px;
+  transform: translateX(-50%);
+  width: 300px;
 }
 
-.social-events-image {
+.home-social-citywalk {
+  position: absolute;
+  left: 477px;
+  top: 80px;
+}
+
+.home-social-hardrock {
+  position: absolute;
+  left: 869px;
+  top: 80px;
+}
+
+.home-social-image-wrapper {
   width: 303px;
   height: 303px;
   border-radius: 25px;
   overflow: hidden;
+  margin-bottom: 23px;
 }
 
-.social-events-image img {
+.home-social-image-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.social-events-card-title {
+.home-social-citywalk h3,
+.home-social-hardrock h3 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   font-size: 32px;
