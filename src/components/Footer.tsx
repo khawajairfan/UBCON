@@ -29,10 +29,10 @@ const Footer = () => {
             <a href="https://www.snapology.com/" target="_blank" rel="noopener noreferrer">
               <img src="/assets/snapology-black.svg" alt="Snapology" />
             </a>
-            <a href="https://class101.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.class101.com/" target="_blank" rel="noopener noreferrer">
               <img src="/assets/class101-black.svg" alt="Class 101" />
             </a>
-            <a href="https://xpleague.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.xpleague.com/" target="_blank" rel="noopener noreferrer">
               <img src="/assets/xp-black.svg" alt="XP League" />
             </a>
           </div>
