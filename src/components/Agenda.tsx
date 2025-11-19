@@ -111,7 +111,14 @@ const Agenda = () => {
           </>
         )}
 
-        <p className="agenda-note">*Full agenda will be released closer to the event.</p>
+        <p 
+          className="agenda-note"
+          style={{
+            top: `${196 + (currentDayData.items.length * 145) + 20}px`
+          }}
+        >
+          *Full agenda will be released closer to the event.
+        </p>
       </div>
     </section>
   );
