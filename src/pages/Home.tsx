@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import CTA from '../components/CTA';
@@ -36,7 +37,7 @@ const Home = () => {
             <p>
               UBCON is the annual conference for the Unleashed Brands franchise community, dedicated to helping franchisees learn, play, and grow. Over four days, attendees will engage in educational workshops, hear from inspiring speakers, and build lasting relationships, all while gaining the tools needed to elevate their businesses and impact children's lives.
             </p>
-            <button className="btn btn-primary">Learn More About UBCON</button>
+            <Link to="/about" className="btn btn-primary">Learn More About UBCON</Link>
           </div>
         </div>
       </section>
@@ -75,7 +76,7 @@ const Home = () => {
         </div>
 
         <div className="text-center">
-          <button className="btn btn-primary">Learn More About Our Speakers</button>
+          <Link to="/speakers" className="btn btn-primary">Learn More About Our Speakers</Link>
         </div>
       </section>
 
